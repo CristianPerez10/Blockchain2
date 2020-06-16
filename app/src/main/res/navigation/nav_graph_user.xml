@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_user"
+    app:startDestination="@id/inicioFragment2">
+
+    <fragment
+        android:id="@+id/configFragment2"
+        android:name="com.example.blockchain2.ui.config.configFragment"
+        android:label="configFragment"
+        tools:layout="@layout/fragment_config"/>
+    <fragment
+        android:id="@+id/walletFragment2"
+        android:name="com.example.blockchain2.ui.wallet.walletFragment"
+        android:label="walletFragment"
+        tools:layout="@layout/fragment_wallet"/>
+    <fragment
+        android:id="@+id/inicioFragment2"
+        android:name="com.example.blockchain2.ui.inicio.inicioFragment"
+        android:label="inicioFragment"
+        tools:layout="@layout/fragment_inicio">
+        <action
+            android:id="@+id/action_inicioFragment2_to_configFragment2"
+            app:destination="@id/configFragment2" />
+        <action
+            android:id="@+id/action_inicioFragment2_to_walletFragment2"
+            app:destination="@id/walletFragment2" />
+    </fragment>
+</navigation>

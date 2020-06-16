@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Blockchain 1.1</string>
+    <string name="titulo_main">¡Hola! Bienvenido a la subasta</string>
+    <string name="boton_registro_main">Registrarme</string>
+    <string name="boton_login_main">Iniciar sesion</string>
+    <string name="volver_str">Volver</string>
+
+    <!-- Registro Activity Strings -->
+    <string name="titulo_registro_str">Registrarse</string>
+    <string name="nombre_registro_str">Nombre completo</string>
+    <string name="password_registro_str">Clave de seguridad</string>
+    <string name="confirm_password_registro_str">Confirmar clave de seguridad</string>
+    <string name="email_registro_str">Correo Electronico</string>
+    <string name="phone_registro_str">Numero de telefono</string>
+    <string name="boton_registro_str">Registrarse</string>
+    <string name="nombre_ingresado_str">Aqui aparecera tu nombre</string>
+
+    <!-- Login Activity Strings -->
+    <string name="titulo_login">¡Bienvenido de nuevo!</string>
+    <string name="email_login">Ingresa tu email</string>
+    <string name="password_login">Ingresa tu contraseña</string>
+    <string name="ingresar_boton">Iniciar Sesion</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
